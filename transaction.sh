@@ -15,3 +15,10 @@ eg: commit-1
     .
     .
     commit-100
+command: git tag -l                           // list all tags
+         git tag tag_name                     // creates an tag and assigns tag to latest commit
+         git tag tag_name commit_id           // create an tag and assign tag to specific commit
+         git tag -f tag_name commit_id        // re-tagging tag to specific commit
+         git tag -d tag_name                  // delete an tag
+
+
